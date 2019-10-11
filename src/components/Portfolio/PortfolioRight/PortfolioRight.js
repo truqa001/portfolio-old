@@ -8,6 +8,7 @@ import slotmachineCmcImg from "../../../images/slotmachinecmc.png";
 import bubbleSortImg from "../../../images/bublesort.png";
 import mytechImg from "../../../images/mytech-logo.png";
 import masterChefImg from "../../../images/master-chef-logo.jpg";
+import theMatrixImg from "../../../images/matrix.jpeg";
 
 const PortfolioRight = () => {
   const [portfolioState, setPortfolioState] = useState({
@@ -51,6 +52,14 @@ const PortfolioRight = () => {
           "A SPA that provides huge amount of recipes of multiple cuisines around the world, together with nutrition details",
         src: masterChefImg,
         href: "/portfolio-view?id=5"
+      },
+      {
+        id: 6,
+        title: "The Matrix",
+        content:
+          "A puzzle game for developers",
+        src: theMatrixImg,
+        href: "/portfolio-view?id=6"
       }
     ],
     displayModal: false,
