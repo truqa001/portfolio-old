@@ -1,12 +1,22 @@
 import React, { useEffect } from "react";
 import "./Preloader.scss";
-import $ from "jquery";
 
 const Preloader = () => {
   useEffect(() => {
-    window.addEventListener("load", () => {
-      
-    });
+    //   setTimeout(function() {
+    //     $(".preloader-left, .preloader-right").css(
+    //       "cssText",
+    //       "transition: 1s; width:0"
+    //     );
+    //     $(".preloader-left div , .preloader-right div")
+    //       .delay(400)
+    //       .css("cssText", "transition: .8s; opacity:0");
+    //     $(".preloader")
+    //       .delay(700)
+    //       .fadeOut(400);
+    //     $("html,body").css("overflow", "auto");
+    //   }, 1400);
+   
   }, []);
 
   return (

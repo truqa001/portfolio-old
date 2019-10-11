@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import PortfolioItem from "../PortfolioItem/PortfolioItem";
 import PortfolioModal from "../PortfolioModal/PortflioModal";
 import $ from "jquery";
@@ -63,8 +63,6 @@ const PortfolioRight = () => {
   });
 
   $(window).ready(function() {
-    let portfolio_item_width = $(".portfolio-item .portfolio-item-img").width();
-    $(".portfolio-item img").height(portfolio_item_width);
     $("#modal-btn").click();
     $("#portfolio-modal").on("hidden.bs.modal", function() {
       hideModal();
@@ -75,6 +73,11 @@ const PortfolioRight = () => {
     let portfolio_item_width = $(".portfolio-item .portfolio-item-img").width();
     $(".portfolio-item img").height(portfolio_item_width);
   });
+
+  useEffect(() => {
+    let portfolio_item_width = $(".portfolio-item .portfolio-item-img").width();
+    $(".portfolio-item img").height(portfolio_item_width);
+  }, []);
 
   const showModal = id => {
     const itemIndex = portfolioState.items.findIndex(i => {
@@ -100,6 +103,7 @@ const PortfolioRight = () => {
 
   const hideModal = () => {
     $(".modal-backdrop").remove();
+    $("body").removeClass("modal-open");
     let displayModal = portfolioState.displayModal;
     displayModal = false;
     setPortfolioState({
