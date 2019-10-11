@@ -1,22 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b100e6da.chunk.css",
-    "main.js": "/portfolio/static/js/main.0e236e25.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0e236e25.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1f774423.chunk.css",
+    "main.js": "/portfolio/static/js/main.1ed47f29.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1ed47f29.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
-    "static/js/2.cf94c3f8.chunk.js": "/portfolio/static/js/2.cf94c3f8.chunk.js",
-    "static/js/2.cf94c3f8.chunk.js.map": "/portfolio/static/js/2.cf94c3f8.chunk.js.map",
+    "static/css/2.510409cd.chunk.css": "/portfolio/static/css/2.510409cd.chunk.css",
+    "static/js/2.972d2d72.chunk.js": "/portfolio/static/js/2.972d2d72.chunk.js",
+    "static/js/2.972d2d72.chunk.js.map": "/portfolio/static/js/2.972d2d72.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.a30b9bdee68ca320077773d572e6723f.js": "/portfolio/precache-manifest.a30b9bdee68ca320077773d572e6723f.js",
+    "precache-manifest.5e9f726ecd7f5e9ecd1ed9d71194fdb9.js": "/portfolio/precache-manifest.5e9f726ecd7f5e9ecd1ed9d71194fdb9.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/portfolio/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/portfolio/static/media/logo.25bf045c.svg"
+    "static/css/2.510409cd.chunk.css.map": "/portfolio/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.1f774423.chunk.css.map": "/portfolio/static/css/main.1f774423.chunk.css.map",
+    "static/media/bublesort.png": "/portfolio/static/media/bublesort.8c096e61.png",
+    "static/media/cloud1.svg": "/portfolio/static/media/cloud1.dea74836.svg",
+    "static/media/cloud2.svg": "/portfolio/static/media/cloud2.aaf7304e.svg",
+    "static/media/TopBar.scss": "/portfolio/static/media/logo.8692522d.png",
+    "static/media/mars.png": "/portfolio/static/media/mars.bfc14033.png",
+    "static/media/master-chef-logo.jpg": "/portfolio/static/media/master-chef-logo.2ba42f70.jpg",
+    "static/media/moon.png": "/portfolio/static/media/moon.ca7c2693.png",
+    "static/media/mytech-logo.png": "/portfolio/static/media/mytech-logo.ae87e441.png",
+    "static/media/Portfolio.scss": "/portfolio/static/media/portfolio-bg.232bcc7c.png",
+    "static/media/rocket.svg": "/portfolio/static/media/rocket.06b4ed44.svg",
+    "static/media/slotmachine.png": "/portfolio/static/media/slotmachine.604ffa38.png",
+    "static/media/slotmachinecmc.png": "/portfolio/static/media/slotmachinecmc.f0d89119.png"
   },
   "entrypoints": [
     "static/js/runtime-main.021c856b.js",
-    "static/js/2.cf94c3f8.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.0e236e25.chunk.js"
+    "static/css/2.510409cd.chunk.css",
+    "static/js/2.972d2d72.chunk.js",
+    "static/css/main.1f774423.chunk.css",
+    "static/js/main.1ed47f29.chunk.js"
   ]
 }
