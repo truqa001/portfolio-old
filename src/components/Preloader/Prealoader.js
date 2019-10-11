@@ -1,16 +1,13 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./Preloader.scss";
 import $ from "jquery";
 
 const Preloader = () => {
-  
-
-  useEffect(()=> {
-    window.addEventListener('load', () => {
-        
+  useEffect(() => {
+    window.addEventListener("load", () => {
+      
     });
-     
-  }, [])
+  }, []);
 
   return (
     <React.Fragment>
