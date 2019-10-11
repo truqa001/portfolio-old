@@ -59,6 +59,7 @@ export default class PortfolioViewPage extends Component {
   };
 
   componentDidMount() {
+    window.scrollTo(0, 0)
     this.state.mobileView ? this.switch_to_mobile() : this.switch_to_pc();
   }
   
