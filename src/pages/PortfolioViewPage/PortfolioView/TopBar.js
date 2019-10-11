@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./TopBar.scss";
+import { Link } from "react-router-dom";
 import { FaMobileAlt, FaDesktop, FaWindowClose } from "react-icons/fa";
+import $ from "jquery";
 
 const TopBar = props => {
   const style = {
@@ -13,6 +15,10 @@ const TopBar = props => {
   const a_style = {
     float: "right"
   };
+
+  const close_portfolio_view = () => {
+    $(".tooltip").remove();
+  }
 
   return (
     <div className="portfolio-view">
@@ -43,15 +49,17 @@ const TopBar = props => {
         </span>
       </div>
 
-      <a href="/portfolio">
+      <Link to="/portfolio" onClick={close_portfolio_view}>
         <span
           className="mr-4"
           style={a_style}
           data-toggle="tooltip"
           data-placement="bottom"
           title="Exit Preview"
-        ><FaWindowClose/></span>
-      </a>
+        >
+          <FaWindowClose />
+        </span>
+      </Link>
     </div>
   );
 };

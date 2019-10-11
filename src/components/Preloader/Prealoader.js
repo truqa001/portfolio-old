@@ -1,9 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import "./Preloader.scss";
 import $ from "jquery";
 
-const Preloader = () => {
-  $(window).on("load", function() {
+class Preloader extends Component {
+    
+  UNSAFE_componentWillMount() {
     setTimeout(function() {
       $(".preloader-left, .preloader-right").css(
         "cssText",
@@ -17,33 +18,35 @@ const Preloader = () => {
         .fadeOut(400);
       $("html,body").css("overflow", "auto");
     }, 400);
-  });
+  }
 
-  return (
-    <React.Fragment>
-      <div className="preloader">
-        <div className="preloader-left">
-          <div>
-            <span>L</span>
-            <span>O</span>
-            <span>A</span>
-            <span>D</span>
+  render() {
+    return (
+      <React.Fragment>
+        <div className="preloader">
+          <div className="preloader-left">
+            <div>
+              <span>L</span>
+              <span>O</span>
+              <span>A</span>
+              <span>D</span>
+            </div>
+          </div>
+
+          <div className="preloader-right">
+            <div>
+              <span>I</span>
+              <span>N</span>
+              <span>G</span>
+              <span>.</span>
+              <span>.</span>
+              <span>.</span>
+            </div>
           </div>
         </div>
-
-        <div className="preloader-right">
-          <div>
-            <span>I</span>
-            <span>N</span>
-            <span>G</span>
-            <span>.</span>
-            <span>.</span>
-            <span>.</span>
-          </div>
-        </div>
-      </div>
-    </React.Fragment>
-  );
-};
+      </React.Fragment>
+    );
+  }
+}
 
 export default Preloader;
