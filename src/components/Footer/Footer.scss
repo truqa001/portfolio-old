@@ -12,3 +12,23 @@ footer {
 footer div span:nth-child(2) {
     float: right;
 }
+
+/**************\
+   phone size   \
+\***************/
+
+@media (max-width: 575px) {
+    footer div {
+      text-align: center;
+      padding: 10px;
+    }
+  
+    footer div span:nth-child(2) {
+      float: unset;
+      padding-top: 4px;
+    }
+  
+    footer div span {
+      display: block;
+    }
+  }
