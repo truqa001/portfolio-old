@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f179de31bcf1c71537eb0d5b5e79d1d5",
+    "revision": "240c1889eb601c27a377492e40dfb4c8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "5ab33fe6ba2869c7c267",
+    "revision": "72e35199b6271902c9f2",
     "url": "/portfolio/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "eed584655d11f4d7cd84",
-    "url": "/portfolio/static/css/main.6ce3c9a5.chunk.css"
+    "revision": "6da8f769bd5256a21f79",
+    "url": "/portfolio/static/css/main.42b6127b.chunk.css"
   },
   {
-    "revision": "5ab33fe6ba2869c7c267",
-    "url": "/portfolio/static/js/2.2a8bb9ff.chunk.js"
+    "revision": "72e35199b6271902c9f2",
+    "url": "/portfolio/static/js/2.14afc561.chunk.js"
   },
   {
-    "revision": "eed584655d11f4d7cd84",
-    "url": "/portfolio/static/js/main.dc90def3.chunk.js"
+    "revision": "6da8f769bd5256a21f79",
+    "url": "/portfolio/static/js/main.90ffef62.chunk.js"
   },
   {
     "revision": "791f997dc0acbb20fb93",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ba42f7048a92d30b232d9c11020abb9",
     "url": "/portfolio/static/media/master-chef-logo.2ba42f70.jpg"
+  },
+  {
+    "revision": "ccb215aacb73ad8e650f587b9e28512a",
+    "url": "/portfolio/static/media/matrix.ccb215aa.jpeg"
   },
   {
     "revision": "ca7c26937ebf18e53a298115ae4950af",
