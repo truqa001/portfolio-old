@@ -1,0 +1,106 @@
+@import "../../variables.scss";
+
+/************************\
+
+       Header CSS
+
+\************************/
+
+nav {
+    background: $midpurple_with_opacity;
+    color: $vanila;
+    position: fixed;
+    width: 100vw;
+    top: -99vh;
+    transition: 0.3s;
+    z-index: 1;
+    box-shadow: 5px 5px 300px #000;
+  }
+  
+  nav img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .nav-btn-container:hover div {
+    height: 90px;
+    padding-top: 30px;
+  }
+  
+  .nav-btn-container div {
+    position: fixed;
+    right: 10px;
+    padding-top: 10px;
+    width: 80px;
+    height: 70px;
+    float: right;
+    background-color: $midpurple_with_opacity;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 0 0 40% 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 200px #000;
+    color: $vanila;
+  }
+  
+  .nav-open, .nav-close {
+    z-index: 999;
+  }
+  
+  .nav-close {
+    display: none;
+    font-weight: bold;
+  }
+  
+  .nav-btn-container i,
+  .nav-btn-container .nav-close span {
+    font-size: 40px;
+  }
+  
+  .nav-collapse {
+    padding-top: calc(4vh + 100px + 50px);
+    width: 30vw;
+    margin: auto;
+    z-index: 1;
+  }
+  
+  .nav-collapse a {
+    position: relative;
+  }
+  
+  .nav-collapse i {
+    position: absolute;
+    top: -7px;
+    left: 17vw;
+    margin-right: 10px;
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+  
+  .nav-collapse a:hover i {
+    left: -30px;
+    opacity: 1;
+    transition: 0.7s;
+    transform: rotate(-360deg);
+  }
+  
+  .nav-collapse a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav-collapse a span {
+    font-size: 1.5rem;
+    font-family: $title-font;
+    letter-spacing: 3px;
+    line-height: 40px;
+  }
+  
+  .nav-collapse .typed-cursor {
+    color: $vanila;
+  }
+  
+  #typed-about-container {
+    display: none;
+  }
+  

@@ -1,0 +1,110 @@
+
+@import "../../variables.scss";
+
+/************************\
+
+       Preloader CSS
+
+\************************/
+
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+}
+
+.preloader-left, .preloader-right {
+    background: $darkblue;
+    height: 100vh;
+    width: 50.05vw;
+    position:absolute;
+    top:0;
+}
+
+.preloader-left {
+    left:0;
+}
+
+.preloader-right {
+    right:0;
+}
+
+.preloader-left div, .preloader-right div {
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.preloader-left div {
+    right: 5px;
+}
+
+.preloader span {
+    font-size: 17px;
+    animation: loading 1.4s infinite;
+    color: $vanila;
+    letter-spacing: 5px;
+}
+
+// .preloader-left span:nth-child(1) {
+
+// }
+.preloader-left span:nth-child(2) {
+    animation-delay: .1s;
+}
+.preloader-left span:nth-child(3) {
+    animation-delay: .2s;
+
+}
+.preloader-left span:nth-child(4) {
+    animation-delay: .3s;
+    letter-spacing: 0;
+
+}
+.preloader-right span:nth-child(1) {
+    animation-delay: .4s;
+
+}
+.preloader-right span:nth-child(2) {
+    animation-delay: .5s;
+
+}
+.preloader-right span:nth-child(3) {
+    animation-delay: .6s;
+
+}
+.preloader-right span:nth-child(4) {
+    animation-delay: .7s;
+
+}
+.preloader-right span:nth-child(5) {
+    animation-delay: .8s;
+
+}
+.preloader-right span:nth-child(6) {
+    animation-delay: .9s;
+
+}
+.preloader-right span:nth-child(7) {
+    animation-delay: 1s;
+
+}
+.preloader-right span:nth-child(8) {
+    animation-delay: 1.1s;
+
+}
+
+
+
+@keyframes loading {
+    0%{
+        font-size: 16px;
+    }
+    100% {
+        font-size: 23px;
+    }
+}
