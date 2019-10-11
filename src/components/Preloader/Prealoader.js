@@ -1,52 +1,42 @@
-import React, { Component } from "react";
+import React, {useEffect} from "react";
 import "./Preloader.scss";
 import $ from "jquery";
 
-class Preloader extends Component {
-    
-  UNSAFE_componentWillMount() {
-    setTimeout(function() {
-      $(".preloader-left, .preloader-right").css(
-        "cssText",
-        "transition: 1s; width:0"
-      );
-      $(".preloader-left div , .preloader-right div")
-        .delay(400)
-        .css("cssText", "transition: .8s; opacity:0");
-      $(".preloader")
-        .delay(700)
-        .fadeOut(400);
-      $("html,body").css("overflow", "auto");
-    }, 400);
-  }
+const Preloader = () => {
+  
 
-  render() {
-    return (
-      <React.Fragment>
-        <div className="preloader">
-          <div className="preloader-left">
-            <div>
-              <span>L</span>
-              <span>O</span>
-              <span>A</span>
-              <span>D</span>
-            </div>
-          </div>
+  useEffect(()=> {
+    window.addEventListener('load', () => {
+        
+    });
+     
+  }, [])
 
-          <div className="preloader-right">
-            <div>
-              <span>I</span>
-              <span>N</span>
-              <span>G</span>
-              <span>.</span>
-              <span>.</span>
-              <span>.</span>
-            </div>
+  return (
+    <React.Fragment>
+      <div className="preloader">
+        <div className="preloader-left">
+          <div>
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
           </div>
         </div>
-      </React.Fragment>
-    );
-  }
-}
+
+        <div className="preloader-right">
+          <div>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+          </div>
+        </div>
+      </div>
+    </React.Fragment>
+  );
+};
 
 export default Preloader;
