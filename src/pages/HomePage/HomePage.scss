@@ -1,0 +1,190 @@
+@import "../../variables.scss";
+
+html,
+body {
+  background: $darkblue !important;
+  color: #fff !important;
+  font-family: Open Sans, Arial !important;
+  width: 100vw;
+  // height: 100vh;
+  scroll-behavior: smooth;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5.5vw;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $title-font;
+  letter-spacing: 7px;
+}
+
+h4 {
+  letter-spacing: 3px;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: $vanila;
+}
+
+.space {
+  padding-top: $div-space;
+}
+
+.text-purple {
+  color: $midpurple !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-vanila {
+  color: $vanila !important;
+}
+
+.white-bg {
+  background: #fff !important;
+}
+
+.purple-bg {
+  background: $darkpurple !important;
+}
+
+.lightpurple-bg {
+  background: $lightpurple !important;
+}
+
+.border-white {
+  border-color: #fff !important;
+}
+
+.border-purple {
+  border-color: $darkpurple !important;
+}
+
+.border-lightpurple {
+  border-color: $lightpurple !important;
+}
+
+.border-vanila {
+  border-color: $vanila !important;
+}
+
+.btn-lightpurple {
+  background: $lightpurple !important;
+  border-color: $lightpurple !important;
+  transition: 0.4s;
+}
+
+.btn-lightpurple:hover {
+  opacity: 0.9;
+}
+
+
+/************************\
+
+      Main page CSS
+
+\************************/
+
+/**************\
+    iPad size   \
+\***************/
+@media (max-width: 991px) {
+  #moon img {
+    margin-left: unset;
+  }
+}
+
+/*****************\
+ smaller iPad size \
+\******************/
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 11vw;
+  }
+
+  .portfolio .right {
+    margin-left: 30px;
+  }
+
+  #mars img {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  #moon img {
+    margin-top: 400px;
+  }
+
+  #portfolio-modal img {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/**************\
+   phone size   \
+\***************/
+
+@media (max-width: 575px) {
+  h2 {
+    font-size: 8.5vw;
+  }
+
+  .portfolio .right {
+    margin-left: unset;
+  }
+
+  #mars img {
+    margin-left: 50px;
+    margin-top: 150px;
+  }
+
+  #moon img {
+    margin-top: 300px;
+  }
+
+  .portfolio-item-rocket {
+    bottom: -175px;
+  }
+
+  .portfolio-item:hover .portfolio-item-rocket {
+    bottom: 100px;
+    left: 170px;
+  }
+}
+
+/********************\
+  overwrite boostrap  \
+\*********************/
+
+.modal-content {
+  background: rgba(49, 36, 80, 0.95);
+}
+
+@media (min-width: 575px) and (max-width: 757px) {
+  .modal-dialog {
+    top: 50%;
+    transform: translateY(-50%) !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 70vw;
+  }
+}

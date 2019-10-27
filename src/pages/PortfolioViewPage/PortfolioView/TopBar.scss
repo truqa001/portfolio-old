@@ -1,0 +1,62 @@
+@import "../../../variables.scss";
+
+.portfolio-view {
+    height: 50px;
+    width: 100vw;
+    background: $midblue;
+  
+
+  span {
+        line-height: 50px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    span:hover {
+        color: darkorange;
+        cursor: pointer;
+    }
+
+    .tooltip-inner {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .arrow::before {
+        top: 10px;
+        left: 10px;
+    }
+
+    .logo {
+        background: url('../../../images//logo.png') no-repeat center;
+        width: 40px;
+        height: 40px;
+        background-size: contain;
+        background-size: 35px 35px;
+        position: absolute;
+        top: 5px;
+        left: 45px;
+        background-color: $vanila;
+        -webkit-animation: animate-logo 5s linear infinite;
+        -o-animation: animate-logo 5s linear infinite;
+        animation: animate-logo 5s linear infinite;
+        z-index: 2;
+    }
+    
+    .logo:hover {
+        background-color: $lightpurple !important;
+        transition: .4s;
+    }
+}
+
+
+
+
+
+
+
+
+
+
