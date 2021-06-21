@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.42b6127b.chunk.css",
-    "main.js": "/portfolio/static/js/main.90ffef62.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.90ffef62.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
-    "static/css/2.510409cd.chunk.css": "/portfolio/static/css/2.510409cd.chunk.css",
-    "static/js/2.14afc561.chunk.js": "/portfolio/static/js/2.14afc561.chunk.js",
-    "static/js/2.14afc561.chunk.js.map": "/portfolio/static/js/2.14afc561.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.293c191a.chunk.css",
+    "main.js": "/portfolio/static/js/main.828afff5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.828afff5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2601f1e9.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2601f1e9.js.map",
+    "static/css/2.a5f06b7f.chunk.css": "/portfolio/static/css/2.a5f06b7f.chunk.css",
+    "static/js/2.fac2835c.chunk.js": "/portfolio/static/js/2.fac2835c.chunk.js",
+    "static/js/2.fac2835c.chunk.js.map": "/portfolio/static/js/2.fac2835c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.35822c223f9f93a452ce06112deefe1d.js": "/portfolio/precache-manifest.35822c223f9f93a452ce06112deefe1d.js",
+    "precache-manifest.ef7bb93fda3a7d222ab1f04e1301be79.js": "/portfolio/precache-manifest.ef7bb93fda3a7d222ab1f04e1301be79.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.510409cd.chunk.css.map": "/portfolio/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.42b6127b.chunk.css.map": "/portfolio/static/css/main.42b6127b.chunk.css.map",
+    "static/css/2.a5f06b7f.chunk.css.map": "/portfolio/static/css/2.a5f06b7f.chunk.css.map",
+    "static/css/main.293c191a.chunk.css.map": "/portfolio/static/css/main.293c191a.chunk.css.map",
+    "static/media/awatchstation-logo.jpg": "/portfolio/static/media/awatchstation-logo.79cf0daf.jpg",
     "static/media/bublesort.png": "/portfolio/static/media/bublesort.8c096e61.png",
     "static/media/cloud1.svg": "/portfolio/static/media/cloud1.dea74836.svg",
     "static/media/cloud2.svg": "/portfolio/static/media/cloud2.aaf7304e.svg",
@@ -28,10 +29,10 @@
     "static/media/slotmachinecmc.png": "/portfolio/static/media/slotmachinecmc.f0d89119.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.021c856b.js",
-    "static/css/2.510409cd.chunk.css",
-    "static/js/2.14afc561.chunk.js",
-    "static/css/main.42b6127b.chunk.css",
-    "static/js/main.90ffef62.chunk.js"
+    "static/js/runtime-main.2601f1e9.js",
+    "static/css/2.a5f06b7f.chunk.css",
+    "static/js/2.fac2835c.chunk.js",
+    "static/css/main.293c191a.chunk.css",
+    "static/js/main.828afff5.chunk.js"
   ]
 }
