@@ -9,10 +9,29 @@ import bubbleSortImg from "../../../images/bublesort.png";
 import mytechImg from "../../../images/mytech-logo.png";
 import masterChefImg from "../../../images/master-chef-logo.jpg";
 import theMatrixImg from "../../../images/matrix.jpeg";
+import amplifyImg from '../../../images/amplify-now-logo.png';
+import awatchstationImg from '../../../images/awatchstation-logo.jpg';
+
 
 const PortfolioRight = () => {
   const [portfolioState, setPortfolioState] = useState({
     items: [
+      {
+        id: 8,
+        title: "A-Watch Station",
+        content:
+          "An e-commerce web store for selling watches.",
+        src: awatchstationImg,
+        href: "/portfolio-view?id=8"
+      },
+      {
+        id: 7,
+        title: "Amplify-Now",
+        content:
+          "Develop and maintain strategic project management software, and support clients with the issues they have while using the app.",
+        src: amplifyImg,
+        href: ""
+      },
       {
         id: 1,
         title: "Slot Machine Game",

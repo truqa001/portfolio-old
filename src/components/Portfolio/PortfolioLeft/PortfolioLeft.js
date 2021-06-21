@@ -10,7 +10,7 @@ const PortfolioLeft = () => {
           <div className="underline1 border-vanila"></div>
           <div className="underline2 border-vanila"></div>
 
-          <h4 className="mt-5">a Software Developer</h4>
+          <h4 className="mt-5">a Software Engineer</h4>
         </div>
       </div>
     </React.Fragment>

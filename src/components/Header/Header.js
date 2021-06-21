@@ -120,7 +120,7 @@ const Header = () => {
     if (client_height <= 575) {
       nav_btn_mt = "69.5";
     } else if (client_height <= 767) {
-      nav_btn_mt = "59.5";
+      nav_btn_mt = "53.9";
     } else if (client_height <= 991) {
       nav_btn_mt = "49.9";
     } else {
@@ -146,7 +146,7 @@ const Header = () => {
     if (client_height <= 575) {
       nav_height = "70";
     } else if (client_height <= 767) {
-      nav_height = "60";
+      nav_height = "55";
     } else if (client_height <= 991) {
       nav_height = "50";
     } else {
@@ -183,7 +183,7 @@ const Header = () => {
           <div id="typed-about-container" className="pb-4">
             <div id="typed-strings-about">
               <p>
-                A software developer with enthusiastic to use innovative
+                A software engineer with enthusiastic to use innovative
                 tech to improve human life and to become proficient in full-stacks
                 developement.
               </p>
@@ -192,12 +192,12 @@ const Header = () => {
           </div>
 
           {/* <a href="#portfolio"><span><i className="fas fa-user"></i>Portfolio</span></a><br /> */}
-          <a href="https://codeant.a-universe.net/">
+          {/* <a href="https://codeant.a-universe.net/">
             <span>
               <i className="far fa-comment-dots"></i>My Blog
             </span>
           </a>
-          <br />
+          <br /> */}
           {/* <a href="#contact" className=""><span><i className="fas fa-phone"></i>Contact</span></a> */}
         </div>
       </nav>
