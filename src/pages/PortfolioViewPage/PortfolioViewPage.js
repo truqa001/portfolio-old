@@ -27,7 +27,7 @@ export default class PortfolioViewPage extends Component {
         { id: 4, src: "https://www.mytechnology.net.au/" },
         { id: 5, src: "https://truqa001.github.io/Master-Chef-App/" },
         { id: 6, src: "https://truqa001.github.io/The-Matrix/" },
-        { id: 8, src: "https://awatchstation.com/" }
+        { id: 7, src: "https://www.amplify-now.com/" }
       ],
       mobileView: mobileView
     };
