@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ad4de2b01181972daf61b9331784dbd",
+    "revision": "f5a8230cfed881b4fb7db600fa54d62f",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c35b9fbb99af0d2c7448",
-    "url": "/portfolio/static/css/2.a5f06b7f.chunk.css"
+    "revision": "43d690c40a948f0023e9",
+    "url": "/portfolio/static/css/2.560b9325.chunk.css"
   },
   {
-    "revision": "59ad9d2e28f65b8e5fbb",
+    "revision": "07bd3e1c11ab7baf3d25",
     "url": "/portfolio/static/css/main.293c191a.chunk.css"
   },
   {
-    "revision": "c35b9fbb99af0d2c7448",
-    "url": "/portfolio/static/js/2.fac2835c.chunk.js"
+    "revision": "43d690c40a948f0023e9",
+    "url": "/portfolio/static/js/2.1f707139.chunk.js"
   },
   {
-    "revision": "59ad9d2e28f65b8e5fbb",
-    "url": "/portfolio/static/js/main.828afff5.chunk.js"
+    "revision": "07bd3e1c11ab7baf3d25",
+    "url": "/portfolio/static/js/main.95ff1c58.chunk.js"
   },
   {
-    "revision": "add6ff81d93680170b15",
-    "url": "/portfolio/static/js/runtime-main.2601f1e9.js"
-  },
-  {
-    "revision": "79cf0daf6bda6e8bbbf251e2fb2088a0",
-    "url": "/portfolio/static/media/awatchstation-logo.79cf0daf.jpg"
+    "revision": "e73ac9e279836ecdfedf",
+    "url": "/portfolio/static/js/runtime-main.aa1db941.js"
   },
   {
     "revision": "8c096e61e5a2960b8f9960c85fa68722",
