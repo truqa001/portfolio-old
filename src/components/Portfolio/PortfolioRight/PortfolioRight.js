@@ -10,18 +10,28 @@ import mytechImg from "../../../images/mytech-logo.png";
 import masterChefImg from "../../../images/master-chef-logo.jpg";
 import theMatrixImg from "../../../images/matrix.jpeg";
 import amplifyImg from '../../../images/amplify-now-logo.png';
-import awatchstationImg from '../../../images/awatchstation-logo.jpg';
+import ailoImg from '../../../images/ailo-logo.png';
+import rangemeImg from '../../../images/rangeme-logo.png';
+
 
 
 const PortfolioRight = () => {
   const [portfolioState, setPortfolioState] = useState({
     items: [
       {
-        id: 8,
-        title: "A-Watch Station",
+        id: 9,
+        title: "RangeMe",
         content:
-          "An e-commerce web store for selling watches.",
-        src: awatchstationImg,
+          "Collaborate with other software engineers and stakeholders to identify requirements, design solutions, and focus on delivering effective software solutions to support RangeMe's e-commerce platform",
+        src: rangemeImg,
+        href: "/portfolio-view?id=9"
+      },
+      {
+        id: 8,
+        title: "Ailo",
+        content:
+          "Work closely with other software engineers, designers, product managers, and stakeholders to identify requirements, brainstorm solutions, and deliver high-quality software products that met the needs of the company and our clients in the proptech industry.",
+        src: ailoImg,
         href: "/portfolio-view?id=8"
       },
       {
@@ -30,7 +40,7 @@ const PortfolioRight = () => {
         content:
           "Develop and maintain strategic project management software, and support clients with the issues they have while using the app.",
         src: amplifyImg,
-        href: ""
+        href: "/portfolio-view?id=7"
       },
       {
         id: 1,
@@ -90,14 +100,14 @@ const PortfolioRight = () => {
     }
   });
 
-  $(window).ready(function() {
+  $(window).ready(function () {
     $("#modal-btn").click();
-    $("#portfolio-modal").on("hidden.bs.modal", function() {
+    $("#portfolio-modal").on("hidden.bs.modal", function () {
       hideModal();
     });
   });
 
-  $(window).resize(function() {
+  $(window).resize(function () {
     let portfolio_item_width = $(".portfolio-item .portfolio-item-img").width();
     $(".portfolio-item img").height(portfolio_item_width);
   });

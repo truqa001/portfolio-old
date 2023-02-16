@@ -4,6 +4,7 @@ import TopBar from "./PortfolioView/TopBar";
 import SampleView from "./PortfolioView/SampleView";
 
 import $ from "jquery";
+import { portfolioDataUrls } from "../portfolioDataUrls";
 
 export default class PortfolioViewPage extends Component {
   constructor(props) {
@@ -20,18 +21,7 @@ export default class PortfolioViewPage extends Component {
     }
 
     this.state = {
-      items: [
-        { id: 1, src: "https://mytechnology.net.au/slot-machine/" },
-        { id: 2, src: "https://mytechnology.net.au/movie-event/" },
-        { id: 3, src: "https://truqa001.github.io/Bubble-Sort/" },
-        { id: 4, src: "https://www.mytechnology.net.au/" },
-        { id: 5, src: "https://truqa001.github.io/Master-Chef-App/" },
-        { id: 6, src: "https://truqa001.github.io/The-Matrix/" },
-        { id: 7, src: "https://www.amplify-now.com/" },
-        { id: 8, src: "https://ailo.io/" },
-        { id: 9, src: "https://www.rangeme.com/" }
-        
-      ],
+      items: [...portfolioDataUrls],
       mobileView: mobileView
     };
   }
@@ -67,9 +57,9 @@ export default class PortfolioViewPage extends Component {
     window.scrollTo(0, 0)
     this.state.mobileView ? this.switch_to_mobile() : this.switch_to_pc();
   }
-  
+
   render() {
-    $(window).ready(function() {
+    $(window).ready(function () {
       $('[data-toggle="tooltip"]').tooltip();
     });
 

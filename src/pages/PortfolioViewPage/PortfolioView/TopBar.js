@@ -4,6 +4,7 @@ import "./TopBar.scss";
 import { Link } from "react-router-dom";
 import { FaMobileAlt, FaDesktop, FaWindowClose } from "react-icons/fa";
 import $ from "jquery";
+import { portfolioDataUrls } from "../../portfolioDataUrls";
 
 const TopBar = props => {
   const url_string = window.location.href;
@@ -11,15 +12,7 @@ const TopBar = props => {
   const portfolio_id = parseInt(url.searchParams.get("id"));
   console.log(portfolio_id)
   const [links, setLinks] = useState(
-    [
-      { id: 1, src: "https://mytechnology.net.au/slot-machine/" },
-      { id: 2, src: "https://mytechnology.net.au/movie-event/" },
-      { id: 3, src: "https://truqa001.github.io/Bubble-Sort/" },
-      { id: 4, src: "https://www.mytechnology.net.au/" },
-      { id: 5, src: "https://truqa001.github.io/Master-Chef-App/" },
-      { id: 6, src: "https://truqa001.github.io/The-Matrix/" },
-      { id: 8, src: "https://awatchstation.com/" }
-    ]
+    [...portfolioDataUrls]
   );
 
   const style = {
